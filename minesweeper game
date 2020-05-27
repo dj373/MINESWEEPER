@@ -62,7 +62,7 @@ int main(){
 
 /* ALL THE FUNCTIONS */
 void intro(){
-  cout << "\t\t\tWELCOME. PLAY WISELY.\n\t\t\tcreator: SUSILKOIRALA\n\n*INFO:  1. The row must be within 0-" << MAXROW-1 << " and column 0-"<< MAXCOL-1 << ".\n\t2. \'(o)\' means closed box, \'(b)\' means bomb, \'-\' means blank box." <<endl;
+  cout << "\t\t\tWELCOME. PLAY WISELY.\n\t\t\tcreator: SUSILKOIRALA\n\n*INFO:  1. The row must be within 1-" << MAXROW-2 << " and column 1-"<< MAXCOL-2 << ".\n\t2. \'(o)\' means closed box, \'(b)\' means bomb, \'-\' means blank box." <<endl;
   cout << "*Press any key to begin...";
   getch();
   cout << "\n\n" ;
